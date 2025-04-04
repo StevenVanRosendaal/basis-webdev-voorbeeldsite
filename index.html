@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo">
+        <nav>
+            <a href="/">Home</a>
+            <a href="over-mij.html">Over Mij</a>
+            <a href="gaming.html">Gaming</a>
+            <a href="programmeren.html">Programmeren</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="container jumbotron">
+            <img src="img/welcome.png">
+            <h1>Welkom op mijn site!</h1>
+        </div>
+    </main>
+
+    <footer>
+        <p id="footer-text"></p>
+    </footer>
+</body>
+</html>
+
+<script>
+    const year = new Date().getFullYear();
+    document.getElementById('footer-text').innerHTML = `&copy; ${year} Steven van Rosendaal. All rights reserved.`;
+</script>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo">
+        <nav>
+            <a href="/">Home</a>
+            <a href="over-mij.html">Over Mij</a>
+            <a href="gaming.html">Gaming</a>
+            <a href="programmeren.html">Programmeren</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="container clearfix">
+            <img src="img/steven.jpeg" class="image-right portrait">
+            <h1>Ik ben Steven!</h1>
+            <p>Hallo! Mijn naam is Steven van Rosendaal en ik ben docent Software Development bij Curio. Al jarenlang combineer ik mijn passie voor onderwijs met mijn liefde voor technologie, design en creativiteit. Mijn doel is om studenten niet alleen de technische vaardigheden aan te leren, maar hen ook te inspireren om zelf te gaan ontdekken, maken en innoveren.</p>
+            <h2>Mijn Achtergrond</h2>
+            <p>Ik heb een sterke achtergrond in digitale media, webontwikkeling, programmeren en vormgeving. Door de jaren heen heb ik mij verdiept in een breed scala aan tools en technieken, waaronder:</p>
+            <ul>
+                <li>Frontend (HTML, CSS & JavaScript)</li>
+                <li>Backend (PHP/Laravel)</li>
+                <li>Webdesign principes en UX</li>
+                <li>Photoshop en beeldbewerking</li>
+                <li>Digitale content creatie en storytelling</li>
+            </ul>
+            <p>Daarnaast blijf ik mijzelf ontwikkelen via cursussen, praktijkprojecten en het actief volgen van trends in tech en educatie.</p>
+            <h2>Mijn Missie als Docent</h2>
+            <p>Wat mij drijft als docent is de impact die ik kan maken op het leerproces van studenten. Ik geloof in:</p>
+            <ul>
+                <li><b>Leren door te doen:</b> studenten bouwen, proberen, falen en leren.</li>
+                <li><b>Creatieve vrijheid:</b> ruimte geven om te experimenteren met code en design.</li>
+                <li><b>Een veilige leeromgeving:</b> iedereen leert in zijn eigen tempo en stijl.</li>
+                <li><b>Vooruitkijken:</b> studenten voorbereiden op de digitale beroepen van morgen.</li>
+            </ul>
+            <p>Ik daag studenten uit om zelf oplossingen te zoeken, kritisch te denken en plezier te hebben in het maken van dingen – of dat nou een simpele website is of een visueel ontwerp.</p>
+            <h2>Buiten de les</h2>
+            <p>Naast mijn werk als docent ben ik ook actief bezig met digitale projecten en creatieve technologie. Ook heb ik een aantal interessante hobbies. Denk aan:</p>
+            <ul>
+                <li>Experimenteren met AI-tools en nieuwe technologieën</li>
+                <li>Zelf projecten maken om mijn code-skills te verbeteren</li>
+                <li>Virtueel en tabletop gamen</li>
+                <li>3D-Printen</li>
+            </ul>
+            <h2>Samen Leren</h2>
+            <p>Of je nu voor het eerst een &lt;div&gt; typt of al ervaring hebt met webprojecten, in mijn lessen ben je welkom. Mijn doel is om samen een solide basis te leggen waarop je zelf verder kunt bouwen.</p>
+            <p class="quote">“Iedereen kan leren programmeren - je hoeft alleen maar te beginnen.”</p>
+        </div>
+    </main>
+
+    <footer>
+        <p id="footer-text"></p>
+    </footer>
+</body>
+</html>
+
+<script>
+    const year = new Date().getFullYear();
+    document.getElementById('footer-text').innerHTML = `&copy; ${year} Steven van Rosendaal. All rights reserved.`;
+</script>
